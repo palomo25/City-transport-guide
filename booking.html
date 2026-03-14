@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Book Transport</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Book a Ride</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="booking.html">Book Ride</a>
+<a href="about.html">About</a>
+</nav>
+</header>
+
+<section class="form-section">
+
+<form id="bookingForm">
+
+<input type="text" id="name" placeholder="Your Name">
+
+<input type="text" id="destination" placeholder="Destination">
+
+<select id="transport">
+<option value="">Select Transport</option>
+<option>Bus</option>
+<option>Taxi</option>
+<option>Jeepney</option>
+<option>Van</option>
+</select>
+
+<button type="submit">Book Now</button>
+
+</form>
+
+<h3>Bookings</h3>
+<ul id="bookingList"></ul>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
